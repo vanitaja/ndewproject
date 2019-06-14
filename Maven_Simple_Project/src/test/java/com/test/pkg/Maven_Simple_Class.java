@@ -60,7 +60,7 @@ public class Maven_Simple_Class
 	Assert.assertEquals(act_flag,exp_flag);
 	System.out.println("fight finder page open successfully");
 	driver.findElement(By.xpath("//a[contains(text(),'SIGN-OFF')]")).click();
-	System.out.println("sign-off successfully");
+	
   }
   
   
